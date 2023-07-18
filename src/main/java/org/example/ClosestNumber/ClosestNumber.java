@@ -1,12 +1,15 @@
 package org.example.ClosestNumber;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ClosestNumber {
     public static void main(String[] args) {
+        int[] arr = { 15, 12, 788, 1, -1, -778, 2, 0 };
             Scanner scanner =new Scanner(System.in);
+        System.out.println(Arrays.toString(arr));
             System.out.println("Girilen Sayı : ");
-            int[] arr = { 15, 12, 788, 1, -1, -778, 2, 0 };
+
             int targetNumber = scanner.nextInt();
 
             int closestSmaller = findClosestSmaller(arr, targetNumber);
