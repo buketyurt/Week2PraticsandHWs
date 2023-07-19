@@ -9,7 +9,7 @@ public class PhoneApp {
         SmartPhone smartPhone4 = new SmartPhone(6,"Vestel",100,"0237623478",520,6,true);
 
         SmartPhone[] smartPhoneArray = {smartPhone0,smartPhone1,smartPhone2,smartPhone3,smartPhone4};
-
+        //calculate prices
         double totalPrice = calculateTotalPrice(smartPhoneArray);
         System.out.println("Total price of all smartphones: $" + totalPrice);
     }
