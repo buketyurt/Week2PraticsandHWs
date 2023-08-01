@@ -1,6 +1,6 @@
 package org.example.EducationPanel;
 
-public class Operator {
+public class Student {
     private String username;
     private String password;
 
